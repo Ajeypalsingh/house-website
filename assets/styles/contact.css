@@ -65,10 +65,11 @@ input[type=text] {
     background: rgb(255 255 255) url("../image/email.png") no-repeat 16px 50%;
 }
 
-.tishi {
+.po {
     font-size: 14px;
     margin-bottom: 13px;
-    /* visibility: hidden; */
+    color: #ff0000;
+    visibility: hidden; 
 }
 
 
