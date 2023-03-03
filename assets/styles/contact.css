@@ -1,7 +1,5 @@
 @import url("./reset.css");
 
-
-
 .container {
     width: min(100% - 30px, 1080px);
     margin-inline: auto;
@@ -71,7 +69,6 @@ input[type=text] {
     color: #ff0000;
     visibility: hidden; 
 }
-
 
 input[type=text]:hover {
     border-color: rgb(38 83 77 / 0.3);
@@ -166,52 +163,4 @@ input[type=button]:hover {
     background-color: #fff;
     color: #26534D;
     line-height: 41px;
-}
-
-/*
-    992 and down 
-*/
-
-@media (max-width: 992px) {
-
-    .heading::before {
-        top: calc(50% - 30px);
-        left: calc(25% - 30px);
-        width: 60px;
-        height: 60px;
-    }
-
-    .heading::after {
-        top: calc(50% - 30px);
-        right: calc(25% - 30px);
-        width: 60px;
-        height: 60px;
-    }
-
-}
-
-/*
-    768x and down 
-*/
-
-@media (max-width: 768px) {
-
-    .big-action {
-        height: 300px;
-    }
-
-    .heading::before {
-        top: calc(50% - 25px);
-        left: calc(15% - 25px);
-        width: 50px;
-        height: 50px;
-    }
-
-    .heading::after {
-        top: calc(50% - 25px);
-        right: calc(15% - 25px);
-        width: 50px;
-        height: 50px;
-    }
-
 }
