@@ -236,6 +236,7 @@ a > button:hover {
 
 .column h3 {
   margin: 20px;
+  color:#3333ff;
 }
 
 .description {
@@ -248,6 +249,8 @@ a > button:hover {
 .description p {
   font-size: 21px;
   line-height: normal;
+  color: #777070;
+  font-weight: 600;
 }
 
 .move {
@@ -410,18 +413,16 @@ footer p {
   .row {height: 830px;}
   .row1 {height: 615px;}
 
+
 }
   
 @media (max-width: 796px) {
   .container {width: min(100% - 15px, 1080px);}
   
   nav ul {display: none;}
-  
   .bar{display: block; 
-       float: right;
-
-
-}
+       float: right;}
+  footer {justify-content: center;}    
   a > button {display: none;}
 
   
@@ -429,9 +430,6 @@ footer p {
   .column { height: 160px;}
   .row {height: 1000px;}
   .row1 {height: 725px;}
-
-
-
  }
 
  @media (max-width: 559px) {
