@@ -78,6 +78,10 @@ a > button {
     text-transform: uppercase;
 }
 
+a > button:hover {
+  background-color: #16169a;
+}
+
 
 .herobanner {
   background: #fff url("../image/herobanner.jpg") center / cover
@@ -106,7 +110,51 @@ a > button {
 
 .search-bar {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 30px;
+}
+
+.search-bar input {
+  height: 35px;
+  width: 300px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #f2f3f4;
+}
+
+.search-bar button {
+  height: 35px;
+  width: 100px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #3333ff;
+  color: #fff;
+  font-size: 16px;
+  margin-left: 10px;
+  transition: all 0.25s ease-in-out;
+}
+
+.search-bar button:hover {
+  background-color: #16169a;
+}
+
+.trust p {
+  color: #a6a6a6;
+  font-size: 18px;
+  font-weight: 6;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.companies {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.companies img {
+  height: 40px;
+  width: 120px;
 }
 
 /*----Media-Quiries----*/
