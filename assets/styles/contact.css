@@ -17,6 +17,77 @@ body {
     background-color: #fff;
 }
 
+
+header {
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px rgb(0 0 0 / 0.2);
+}
+
+
+.bar {
+    display: none;
+}
+
+h1 {
+    color: #3333ff;
+    font-size: 30px;
+    line-height: 70px;
+    font-weight: bold;
+    display: inline;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul li {
+    display: inline;
+    line-height: 70px;
+}
+
+nav ul li+li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    transition: all 0.25s ease-in-out;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #3333ff;
+    color: #fff;
+}
+
+header .bar {
+    color: #3333ff;
+    font-size: 28px;
+    line-height: 70px;
+    margin-right: 10px;
+}
+
+a>button {
+    height: 37px;
+    width: 125px;
+    background-color: #3333ff;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+a>button:hover {
+    background-color: #16169a;
+}
+
 /*-----------------------------------------*/
 /* Main                           */
 /*-----------------------------------------*/
@@ -67,7 +138,7 @@ input[type=text] {
     font-size: 14px;
     margin-bottom: 13px;
     color: #ff0000;
-    visibility: hidden; 
+    visibility: hidden;
 }
 
 input[type=text]:hover {
@@ -85,7 +156,7 @@ textarea {
     color: #A0A2A6;
     border-color: #556A83;
     transition: border-color 0.25 ease-in-out;
-    resize:none;
+    resize: none;
 }
 
 textarea:hover {
@@ -127,7 +198,8 @@ input[type=button]:hover {
     border: 1px solid #5138ED;
     line-height: 50px;
     text-align: center;
-    color: #5138ED;;
+    color: #5138ED;
+    ;
     margin-right: 10px;
 }
 
