@@ -1,8 +1,8 @@
 ## Welcome
 
  Our Team - 
- Raminder Singh
- Yifan Jiao
+ Raminder Singh,
+ Yifan Jiao,
  Ajaypal Singh
 
 ### OUR HOUSE WEBSITE
