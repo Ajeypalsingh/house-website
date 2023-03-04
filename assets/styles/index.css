@@ -7,6 +7,7 @@
   margin-inline: auto;
 }
 
+
 header {
   background-color: rgb(255, 255, 255);
   height: 70px;
@@ -75,6 +76,37 @@ a > button {
     border-radius: 8px;
     font-size: 18px;
     text-transform: uppercase;
+}
+
+
+.herobanner {
+  background: #fff url("../image/herobanner.jpg") center / cover
+  no-repeat;
+  height: 500px;
+  display: grid;
+  place-items: center;
+  box-shadow: 1px 1px 4px rgb(0 0 0 / 0.2);
+  transition: all 1s;
+}
+
+.content p {
+  font-size: 60px;
+  font-weight: 900;
+  color: #fff;
+  text-align: center;
+  margin-top: -50px;
+}
+
+.search p {
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.search-bar {
+  text-align: center;
+  margin-top: 20px;
 }
 
 /*----Media-Quiries----*/
