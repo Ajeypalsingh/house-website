@@ -7,6 +7,10 @@
   margin-inline: auto;
 }
 
+body {
+  background-color: #fcfcfc;
+}
+
 
 header {
   background-color: rgb(255, 255, 255);
@@ -65,8 +69,7 @@ header .bar {
 }
 
 main {
-  height: 100vh;
-  background-color: #fbfbfb;
+  height: 100vh - 70px - 60px;
 }
 
 a > button {
@@ -266,7 +269,7 @@ a > button:hover {
   margin: 30px 20px;
   box-shadow: 1px 1px 4px rgb(0 0 0 / 0.2);
   background-color: #F6F8FA;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 }
 
 .row-header {
@@ -324,6 +327,14 @@ a > button:hover {
   margin: 10px 30px;
 }
 
+.column1:hover {
+  animation: pop 0.5s linear 1;
+}
+
+@keyframes pop{
+  50%  {transform: scale(1.2);}
+}
+
 .imgs {
   height: 80px;
   width: 100%;
@@ -358,6 +369,31 @@ a > button:hover {
 .four1 {
     background: #fff url("../image/house-1.jpg") center / cover
     no-repeat;
+}
+
+
+footer {
+  height: 60px;
+  width: 100%;
+  background-color: #3333ff;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-media nav ul li a {
+  color: #fff;
+  font-size: 23px;
+}
+
+.social-media nav ul li a i:hover {
+  animation: pop 0.5s linear 1;
+}
+
+
+footer p {
+  line-height: 60px;
+  color: #fff;
+  font-size: 20px;
 }
 
 /*----Media-Quiries----*/
