@@ -236,3 +236,11 @@ input[type=button]:hover {
     color: #26534D;
     line-height: 41px;
 }
+
+@media (max-width: 796px) {
+    .container {width: min(100% - 15px, 1080px);}
+    nav ul {display: none;}
+    .bar{display: block; 
+         float: right;}
+    a > button {display: none;}
+  }
